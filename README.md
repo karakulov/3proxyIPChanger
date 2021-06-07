@@ -5,7 +5,7 @@ Updates list of the allowed IPs
 
 After intallation and configuration 3proxy, you need to specify in app.py paths to /etc/3proxy/update, /etc/3proxy/iplist.txt, external IP and port and secret AUTH key.
 
-## Example of reqest
+## Example of request
 
 ```
 curl -H "AUTH: 12345" http://192.168.0.1:1111/ping/desktop
